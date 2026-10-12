@@ -11,7 +11,7 @@ Enable CLI-averse users to safely discover, install, update and manage Homebrew 
 ## 📲 Tech
 
 - **Swift** with strict concurrency · **SwiftUI** · **Swift Package Manager**
-- Toolchain and macOS requirements: [Package.swift](Package.swift), [.swift-version](.swift-version) and [Xcode project](Homebrew.xcodeproj/project.pbxproj)
+- Builds from this source tree target macOS 15.8 or later. Toolchain requirements: [Package.swift](Package.swift), [.swift-version](.swift-version) and [Xcode project](Homebrew.xcodeproj/project.pbxproj)
 - Data from the `brew` CLI and the [Homebrew JSON API](https://formulae.brew.sh/docs/api/)
 
 ## 📦 Installation
